@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F8B359A429A826BD002E9671 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B359A329A826BD002E9671 /* main.swift */; };
 		F8B359AC29A82944002E9671 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = F8B359AB29A82944002E9671 /* ArgumentParser */; };
-		F8D1B41129A8713900AFF632 /* Alfred.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1B41029A8713900AFF632 /* Alfred.swift */; };
+		F8D1B41129A8713900AFF632 /* alfred.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1B41029A8713900AFF632 /* alfred.swift */; };
 		F8D1B41329A8716F00AFF632 /* logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1B41229A8716F00AFF632 /* logging.swift */; };
 		F8D1B41529A8719600AFF632 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1B41429A8719600AFF632 /* functions.swift */; };
 		F8E33D0929A83A6400B8F594 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = F8E33D0829A83A6400B8F594 /* Logging */; };
@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		F8B359A029A826BD002E9671 /* kagiSearchSuggestions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kagiSearchSuggestions; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B359A329A826BD002E9671 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F8D1B41029A8713900AFF632 /* Alfred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alfred.swift; sourceTree = "<group>"; };
+		F8D1B41029A8713900AFF632 /* alfred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfred.swift; sourceTree = "<group>"; };
 		F8D1B41229A8716F00AFF632 /* logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logging.swift; sourceTree = "<group>"; };
 		F8D1B41429A8719600AFF632 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B359A329A826BD002E9671 /* main.swift */,
-				F8D1B41029A8713900AFF632 /* Alfred.swift */,
+				F8D1B41029A8713900AFF632 /* alfred.swift */,
 				F8D1B41229A8716F00AFF632 /* logging.swift */,
 				F8D1B41429A8719600AFF632 /* functions.swift */,
 			);
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B359A429A826BD002E9671 /* main.swift in Sources */,
-				F8D1B41129A8713900AFF632 /* Alfred.swift in Sources */,
+				F8D1B41129A8713900AFF632 /* alfred.swift in Sources */,
 				F8D1B41329A8716F00AFF632 /* logging.swift in Sources */,
 				F8D1B41529A8719600AFF632 /* functions.swift in Sources */,
 			);
