@@ -41,8 +41,11 @@ func parseSuggestions(data: Data) -> [String] {
             // A string containing the original search term,
             // and an array of strings containing the suggestions for that term.
             // To parse, we ignore the search term and cast the search suggestions to [String].
-            if let suggestions = json[1] as? [String] {
-                return suggestions
+            if var suggestions = json[1] as? [String] {
+                if let initialSearchTerm = json[0] as? String {
+                    suggestions.insert(initialSearchTerm, at: 0)
+                    return suggestions
+                }
             }
         }
     } catch let error as NSError {
