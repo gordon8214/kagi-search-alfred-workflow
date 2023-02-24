@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F8B359A429A826BD002E9671 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B359A329A826BD002E9671 /* main.swift */; };
+		F8B359AC29A82944002E9671 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = F8B359AB29A82944002E9671 /* ArgumentParser */; };
+		F8E33D0929A83A6400B8F594 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = F8E33D0829A83A6400B8F594 /* Logging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E33D0929A83A6400B8F594 /* Logging in Frameworks */,
+				F8B359AC29A82944002E9671 /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +82,10 @@
 			dependencies = (
 			);
 			name = kagiSearchSuggestions;
+			packageProductDependencies = (
+				F8B359AB29A82944002E9671 /* ArgumentParser */,
+				F8E33D0829A83A6400B8F594 /* Logging */,
+			);
 			productName = kagiSearchSuggestions;
 			productReference = F8B359A029A826BD002E9671 /* kagiSearchSuggestions */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +114,10 @@
 				Base,
 			);
 			mainGroup = F8B3599729A826BC002E9671;
+			packageReferences = (
+				F8B359AA29A82944002E9671 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				F8E33D0729A83A6400B8F594 /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
 			productRefGroup = F8B359A129A826BD002E9671 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -284,6 +296,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8B359AA29A82944002E9671 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F8E33D0729A83A6400B8F594 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8B359AB29A82944002E9671 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8B359AA29A82944002E9671 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		F8E33D0829A83A6400B8F594 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8E33D0729A83A6400B8F594 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8B3599829A826BC002E9671 /* Project object */;
 }
