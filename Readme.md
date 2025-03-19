@@ -20,6 +20,6 @@ To add your session Key:
 
 ## Building the workflow
 
-1. Build the `kagiSearchSuggestions` Swift binary which handles getting and search suggestions.
+1. Build the `kagiSearchSuggestions` Swift binary which handles getting and formatting search suggestions.
 2. Notarize the binary if you want it to be portable.
 3. Copy it into the `workflow` folder.
