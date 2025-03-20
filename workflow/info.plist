@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.gordonbyrnes.kagiSearchSuggestions</string>
+	<string>com.gordonbyrnes.alfred.kagiSearchSuggestions</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
@@ -270,7 +270,7 @@ To add your session Key:
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>k</string>
+				<string>kagi</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -309,10 +309,8 @@ To add your session Key:
 			<string>session_key</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>E</string>
+	<string>1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/gordon8214/kagi-search-alfred-workflow/</string>
 </dict>
