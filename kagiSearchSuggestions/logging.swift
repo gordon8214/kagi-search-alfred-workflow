@@ -9,3 +9,4 @@ import Foundation
 import Logging
 
 let logger = Logger(label: "com.gordonbyrnes.kagiSearchSuggestions.main")
+let fileLogger = FileLogger(enabled: false)
